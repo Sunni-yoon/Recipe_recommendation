@@ -1,4 +1,3 @@
-# 클로버 ocr api
 def get_category_result(image_file = './RecipeBOAZ/input/ex.jpg'):
 
     import requests
@@ -12,6 +11,7 @@ def get_category_result(image_file = './RecipeBOAZ/input/ex.jpg'):
     import requests
     import urllib
 
+    # 클로버 ocr api
     api_url = 'https://64rr4snprl.apigw.ntruss.com/custom/v1/25675/206e9557ed1ac009e4e1d40622dab52fb515be7ed966afdfb8f018ae51e582a4/document/receipt'
     secret_key = 'naver ocr api secret key'
 
@@ -108,6 +108,7 @@ def get_category_result(image_file = './RecipeBOAZ/input/ex.jpg'):
     for query1 in ingre_list:
         query = urllib.parse.quote(query1)
 
+        # naver 쇼핑 api
         url = "https://openapi.naver.com/v1/search/shop?query=" + query
 
         request = urllib.request.Request(url)
