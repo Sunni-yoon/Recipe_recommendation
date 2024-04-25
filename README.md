@@ -17,6 +17,7 @@
 2.  사용자에게 직접 텍스트를 입력받아 추천
 
 <br/>
+
 ![image](https://github.com/Sunni-yoon/Recipe_recommendation/assets/118954283/39c6caeb-8477-4e25-93b4-6879df5d1c36)
 
 
