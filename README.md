@@ -4,7 +4,7 @@
 - 입력받은 음식 재료를 기반으로 레시피를 추천해주는 레시피 추천 챗봇 구현
   
 ```api.py``` : CLOVA api 및 네이버 api 불러오기 <br/>
-```model.py``` : LeNet-5, Custom MLP, Regularized LeNet-5 세가지 모델 구현 <br/>
+```server.py``` : 서버 구축 <br/>
 ```final_recommendation.py``` : 추천 기능 구현 <br/>
 
 ----------------------------------------------------------------------
