@@ -1,6 +1,6 @@
 # 클로버 ocr api
 def get_category_result(image_file = './RecipeBOAZ/input/ex.jpg'):
-    ## 네이버검색 api 사용
+
     import requests
     import uuid
     import time
