@@ -1,15 +1,20 @@
 # Recipe_recommendation
 
-### notice
-입력받은 음식 재료를 기반으로 레시피를 추천해주는 레시피 추천 챗봇 구현
+### Notice
+- 입력받은 음식 재료를 기반으로 레시피를 추천해주는 레시피 추천 챗봇 구현
+  
+```api.py``` : CLOVA api 및 네이버 api 불러오기 <br/>
+```dataset.py``` : MNIST 데이터셋 전처리 <br/>
+```model.py``` : LeNet-5, Custom MLP, Regularized LeNet-5 세가지 모델 구현 <br/>
+```plot_visualization.py``` : main 결과값 plot 시각화 <br/>
 
 ----------------------------------------------------------------------
 
 ### 프로젝트 내용 </br>
 
 카카오톡 챗봇으로 사용자에게 재료를 입력받아 레시피를 추천해주는 기능 구현
-- 영수증 이미지 OCR을 통한 추천 </br>
-- 사용자에게 직접 텍스트를 입력받아 추천 </br>
+- 영수증 이미지 OCR을 통한 추천
+- 사용자에게 직접 텍스트를 입력받아 추천
 
 ![image](https://github.com/Sunni-yoon/Recipe_recommendation/assets/118954283/39c6caeb-8477-4e25-93b4-6879df5d1c36)
 
@@ -33,5 +38,6 @@
   ![image](https://github.com/Sunni-yoon/Recipe_recommendation/assets/118954283/af0d5a18-3537-4fa9-9ca3-97de44bb0abf)
 
 - 실제 챗봇 구현을 통해 추천
+<br/>
 
 더 자세한 내용은 **레시피를보아즈_발표자료** 를 참고해주세요.
